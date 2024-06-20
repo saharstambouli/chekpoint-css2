@@ -1,0 +1,75 @@
+.navbar-brand{
+
+    position: absolute;
+    left: 2px;
+}
+
+.navbar-nav{
+
+    position: absolute;
+    right: 0px;
+}
+
+#hero{
+     padding-top: 50px;
+
+
+}
+
+
+    img{
+
+        height: 200px;
+    }
+
+    #hero{
+
+      background-image: url(./Egypt.jpg);
+
+       padding: 30px;
+       margin-top: 30px;
+
+    }
+
+    .contenu{
+        text-align: center;
+
+    }
+
+    #Destinations{
+     
+        padding: 15px;
+        display: flex;
+        justify-content: space-around ;
+    }
+
+#Contact{
+    padding: 30px;
+    margin-top: 30px;
+}
+
+#footer{
+
+display: flex;
+flex-direction: row;
+
+}
+.Liens{
+
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    list-style-type: none;
+
+}
+
+@media  (max-width: 450px) {
+#hero {background-image: none;
+   
+}
+}
+
+
+
+
+
